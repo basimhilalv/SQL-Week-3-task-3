@@ -32,4 +32,4 @@ HAVING SUM(Amount) > 10000;
 EXEC totalSalesByBook @bookstitle = 'Vellimoonga'; 
 
 -- User Defined function execution
-SELECT AverageSaleAmount();
+SELECT dbo.AverageSaleAmount();
